@@ -24,15 +24,15 @@
                         </div>
                         <div id="card-back" class="back">
                             <div class="card-content card-content__type-0">
-                                <div class="card-content__top">
+                                <div class="card-content__title">
                                     Один на один с манипулятором
                                 </div>
-                                <div class="card-content__title">
-                                    Техника безопасности при общении с сотрудниками, которые пытаются повлиять на Ваши действия и решения.
+                                <div class="card-content__text">
+                                    Техника безопасности при общении с&nbsp;сотрудниками, которые пытаются повлиять на Ваши действия и решения.
                                 </div>
 
                             </div>
-                            <div class="card-footer">
+                            <div class="card-footer card-footer_start">
                                 <a class="card-button js-to-question" data-question="1">Пройти тест</a>
                             </div>
                         </div>
@@ -92,6 +92,9 @@
     <script id="answer__tmpl" type="text/x-javascript-tmpl">
 
         <div class="card-content card-content__type-{{type}}">
+        <div class="card-step">
+                <span class="card-step__in">Ситуация {{step}} из 5</span>
+            </div>
             <div class="card-content__title">
                 {{title}}
             </div>
